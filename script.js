@@ -269,9 +269,12 @@ document.addEventListener("keydown", (e) => {
 toggleBtn.onclick = () => {
   body.classList.toggle("dark");
   localStorage.setItem("theme", body.classList.contains("dark") ? "dark" : "");
+  toggleBtn.querySelector("i").className = `fas ${body.classList.contains("dark") ? "fa-moon" : "fa-sun"} icon`;
   calc.stopLoveSound();
   calc.playSound();
 };
+
+toggleBtn.querySelector("i").className = `fas ${body.classList.contains("dark") ? "fa-moon" : "fa-sun"} icon`;
 
 soundBtn.onclick = () => calc.toggleSound();
 
@@ -280,4 +283,5 @@ modeBtn.onclick = () => calc.toggleMode();
 clearHistoryBtn.onclick = () => calc.clearHistory();
 
 const savedTheme = localStorage.getItem("theme");
-if (savedTheme) body.classList.add(savedTheme);
+if (!savedTheme) body.classList.add("dark");
+else body.classList.add(savedTheme);
