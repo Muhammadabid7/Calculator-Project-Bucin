@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Kalkulator</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Roboto+Mono&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="settings">
+    <button class="toggleBtn" role="button" aria-label="Toggle theme"><i class="fas fa-sun icon"></i></button>
+    <button class="soundBtn" role="button" aria-label="Toggle sound"><i class="fas fa-volume-up icon"></i></button>
+  </div>
+  <div class="calculator">
+    <div class="display">
+      <div id="expression" role="textbox" aria-live="polite"></div>
+      <div id="value" role="textbox" aria-live="polite"></div>
+    </div>
+    <div class="mode-toggle">
+      <button id="modeBtn" role="button" aria-label="Toggle calculator mode">Basic</button>
+      <button id="clearHistory" role="button" aria-label="Clear history"><i class="fas fa-trash"></i></button>
+    </div>
+    <div class="buttons" id="basic-mode">
+      <span id="clear" role="button" aria-label="Clear display"><i class="fas fa-eraser"></i></span>
+      <span role="button" aria-label="Divide"><i class="fas fa-divide"></i></span>
+      <span role="button" aria-label="Multiply"><i class="fas fa-times"></i></span>
+      <span role="button" aria-label="Seven">7</span>
+      <span role="button" aria-label="Eight">8</span>
+      <span role="button" aria-label="Nine">9</span>
+      <span role="button" aria-label="Subtract"><i class="fas fa-minus"></i></span>
+      <span role="button" aria-label="Four">4</span>
+      <span role="button" aria-label="Five">5</span>
+      <span role="button" aria-label="Six">6</span>
+      <span id="plus" role="button" aria-label="Add"><i class="fas fa-plus"></i></span>
+      <span role="button" aria-label="One">1</span>
+      <span role="button" aria-label="Two">2</span>
+      <span role="button" aria-label="Three">3</span>
+      <span role="button" aria-label="Zero">0</span>
+      <span role="button" aria-label="Double Zero">00</span>
+      <span role="button" aria-label="Decimal">.</span>
+      <span id="equal" role="button" aria-label="Equals"><i class="fas fa-equals"></i></span>
+      <span id="backspace" role="button" aria-label="Backspace"><i class="fas fa-backspace"></i></span>
+      <span id="memory-clear" role="button" aria-label="Memory Clear">MC</span>
+      <span id="memory-recall" role="button" aria-label="Memory Recall">MR</span>
+      <span id="memory-add" role="button" aria-label="Memory Add">M+</span>
+      <span id="memory-subtract" role="button" aria-label="Memory Subtract">M−</span>
+    </div>
+    <div class="buttons scientific" id="scientific-mode" style="display: none;">
+      <span role="button" aria-label="Sine">sin</span>
+      <span role="button" aria-label="Cosine">cos</span>
+      <span role="button" aria-label="Tangent">tan</span>
+      <span role="button" aria-label="Inverse Sine">sin⁻¹</span>
+      <span role="button" aria-label="Square Root"><i class="fas fa-square-root-alt"></i></span>
+      <span role="button" aria-label="Logarithm">log</span>
+      <span role="button" aria-label="Natural Log">ln</span>
+      <span role="button" aria-label="Exponential">eˣ</span>
+      <span role="button" aria-label="Power"><i class="fas fa-superscript"></i></span>
+      <span role="button" aria-label="Pi"><i class="fas fa-pi"></i></span>
+      <span role="button" aria-label="Left Parenthesis">(</span>
+      <span role="button" aria-label="Right Parenthesis">)</span>
+    </div>
+    <div class="history"></div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.6.4/math.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
