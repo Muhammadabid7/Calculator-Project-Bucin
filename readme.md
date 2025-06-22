@@ -1,39 +1,31 @@
-# Calculator Project Bucin 🧮💖
+# Calculator Project Bucin 🧮💕
 
-A stylish and playful web-based calculator with a romantic twist! Enter `1+1` to reveal a sweet surprise ("I LOVE U") or use it for serious math with scientific functions, light/dark themes, and satisfying click sounds. Built with HTML, CSS, and JavaScript, this project is perfect for both coders and romantics! ✨
+Welcome to **Calculator Project Bucin**, a web-based calculator that blends math with a touch of romance! 💖 Type `1+1` for a delightful "I LOVE U" surprise or dive into serious calculations with scientific functions, light/dark themes, and satisfying click sounds. Built with HTML, CSS, and JavaScript, this project is a fun showcase of coding creativity! ✨
 
-[![Demo](https://img.shields.io/badge/Live_Demo-Netlify-brightgreen)](https://kalkulator-project-gabut.netlify.app)
-[![License](https://img.shields.io/badge/License-MIT-blue)](./LICENSE)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Netlify-00C7B7)](https://kalkulator-project-gabut.netlify.app)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue)](./LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/Muhammadabid7/Calculator-Project-Bucin?style=social)](https://github.com/Muhammadabid7/Calculator-Project-Bucin)
 
-## Features 🌟
-- **Romantic Easter Egg**: Type `1+1` for a glitchy "ERROR" followed by a heartfelt "I 💖 U" message with a glowing heart animation.
-- **Light/Dark Mode**: Toggle between sleek light and dark themes for day or night vibes.
-- **Scientific Mode**: Supports advanced functions like `sin`, `cos`, `tan`, `sqrt`, `log`, and more.
-- **Calculation History**: Stores recent calculations with clickable entries to reuse expressions.
-- **Sound Effects**: Satisfying click sounds for buttons and a special tune for the "I LOVE U" moment (toggleable).
-- **Responsive Design**: Works flawlessly on desktop, tablet, and mobile.
-- **Memory Functions**: Includes `MC`, `MR`, `M+`, and `M-` for storing and recalling values.
-- **Keyboard Support**: Use your keyboard for quick input (e.g., `Enter` for equals, `Backspace` for delete).
+## Why This Calculator? 🌟
+This isn't just a calculator—it's a love letter to coding and creativity! Here's what makes it special:
+- **Romantic Easter Egg**: Enter `1+1` to see a glitchy "ERROR" transform into a glowing "I 💖 U" with a heart animation.
+- **Light & Dark Themes**: Switch between elegant light and cozy dark modes for any mood.
+- **Scientific Mode**: Tackle advanced math with `sin`, `cos`, `tan`, `sqrt`, `log`, and more.
+- **Calculation History**: Revisit past calculations with clickable entries to reload expressions.
+- **Sound Effects**: Enjoy satisfying button clicks and a special tune for the "I LOVE U" moment (toggleable).
+- **Responsive Design**: Looks great on desktops, tablets, and phones.
+- **Memory Functions**: Use `MC`, `MR`, `M+`, and `M-` to store and recall values.
+- **Keyboard Support**: Input numbers and operators directly with your keyboard for speed.
 
-## Demo 📱
-Try it live: [https://kalkulator-project-gabut.netlify.app](https://kalkulator-project-gabut.netlify.app)
+## Live Demo 🚀
+Try it now: [https://kalkulator-project-gabut.netlify.app](https://kalkulator-project-gabut.netlify.app)
 
-## Screenshots 📸
-### Light Mode
-![Light Mode](screenshots/light-mode.png)
-
-### Dark Mode
-![Dark Mode](screenshots/dark-mode.png)
-
-### 1+1 = I LOVE U
-![I LOVE U](screenshots/iloveu.png)
-
-## Getting Started 🚀
+## Getting Started 🛠️
 
 ### Prerequisites
 - A modern web browser (Chrome, Firefox, Safari, etc.)
-- [Node.js](https://nodejs.org/) (optional, for local development server)
-- Audio files (`KlikSatisfying.wav` and `bidzz.mp3`) in the project root for sound effects
+- [Node.js](https://nodejs.org/) (optional, for running a local server)
+- Audio files (`KlikSatisfying.wav` and `bidzz.mp3`) for sound effects
 
 ### Installation
 1. Clone the repository:
